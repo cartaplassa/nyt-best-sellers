@@ -1,0 +1,43 @@
+@use "./book/book";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f5f8;
+  color: #222;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.booklist {
+  width: fit-content;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+$queries: (
+  700px: 2,
+  1060px: 3,
+  1220px: 4,
+);
+
+@each $display, $quantity in $queries {
+  @media screen and (min-width: $display) {
+    .booklist {
+      grid-template-columns: repeat($quantity, 1fr);
+    }
+  }
+}

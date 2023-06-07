@@ -1,0 +1,43 @@
+@use "./order-box/order-box";
+
+.book {
+  background: #fff;
+  border-radius: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+  position: relative;
+}
+
+.book__num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75em;
+  border-top-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  color: white;
+  background-color: #c35600;
+}
+
+.book__image {
+  width: 100%;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  object-fit: cover;
+}
+
+.book__title {
+  margin-top: 0.55em;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+.book__author {
+  color: #617d98;
+  font-size: 0.75em;
+  margin-top: 0.5em;
+}

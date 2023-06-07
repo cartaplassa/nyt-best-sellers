@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.99236e01.css",
+    "main.js": "/static/js/main.d00bc083.js",
+    "static/media/colleen_hoover_it_ends_with_us.jpg": "/static/media/colleen_hoover_it_ends_with_us.de19f14a79e850cbaf2c.jpg",
+    "static/media/abraham_verghese_the_covenant.jpg": "/static/media/abraham_verghese_the_covenant.01674f9266a34580ed6c.jpg",
+    "static/media/david_grann_killers.jpg": "/static/media/david_grann_killers.4188c5fab4b75b1ce90e.jpg",
+    "static/media/colleen_hoover_it_starts_with_us.jpg": "/static/media/colleen_hoover_it_starts_with_us.eb9252a1b7de77bb2666.jpg",
+    "static/media/jack_carr_only_the_dead.jpg": "/static/media/jack_carr_only_the_dead.94eeea8b258a9d29990d.jpg",
+    "static/media/david_grann_the_wager.jpg": "/static/media/david_grann_the_wager.0d3b7f5051f0e0cd8190.jpg",
+    "static/media/emily_henry_happy_place.jpg": "/static/media/emily_henry_happy_place.79ad3c45dbbb8ccf2760.jpg",
+    "static/media/bonnie_garmus_lessons_in_chemistry.jpg": "/static/media/bonnie_garmus_lessons_in_chemistry.0f4fcd9c34589b06aed2.jpg",
+    "static/media/peter_attia_outlive.jpg": "/static/media/peter_attia_outlive.a7364e4c89bd1e812476.jpg",
+    "static/media/bessel_van_der_kolk.jpg": "/static/media/bessel_van_der_kolk.c42ff9558d4d8d709f08.jpg",
+    "index.html": "/index.html",
+    "main.99236e01.css.map": "/static/css/main.99236e01.css.map",
+    "main.d00bc083.js.map": "/static/js/main.d00bc083.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99236e01.css",
+    "static/js/main.d00bc083.js"
+  ]
+}

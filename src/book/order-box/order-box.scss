@@ -1,0 +1,27 @@
+.order-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1em;
+}
+
+.order-box__label {
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.order-box__field {
+  width: 6em;
+  height: 3em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  text-align: center;
+}
+
+.order-box__submit {
+  width: 6em;
+  height: 3em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  padding: 0 1em;
+}

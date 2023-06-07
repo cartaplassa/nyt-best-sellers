@@ -1,13 +1,115 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.order-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.order-box__label {
+  height: fit-content;
+  margin: 0 auto;
 }
+
+.order-box__field {
+  width: 6em;
+  height: 3em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  text-align: center;
+}
+
+.order-box__submit {
+  width: 6em;
+  height: 3em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  padding: 0 1em;
+}
+
+.book {
+  background: #fff;
+  border-radius: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+  position: relative;
+}
+
+.book__num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75em;
+  border-top-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  color: white;
+  background-color: #c35600;
+}
+
+.book__image {
+  width: 100%;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  object-fit: cover;
+}
+
+.book__title {
+  margin-top: 0.55em;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+.book__author {
+  color: #617d98;
+  font-size: 0.75em;
+  margin-top: 0.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f5f8;
+  color: #222;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.booklist {
+  width: fit-content;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .booklist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1060px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1220px) {
+  .booklist {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
